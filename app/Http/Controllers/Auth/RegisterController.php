@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Events\Auth\UserActivationEmail;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -69,6 +70,8 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'active' => false,
+            'activation_token' => str_random(255)
         ]);
     }
 
@@ -83,6 +86,9 @@ class RegisterController extends Controller
      */
     protected function registered(Request $request, $user)
     {
+        // sending mail
+        event(new UserActivationEmail($user));
+
         $this->guard()->logout();
         return redirect()->route('login')->withSuccess('Registered. Please check your email to activate your account');
     }
