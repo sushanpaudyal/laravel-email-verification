@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c354c8b-db6b-4715-9693-7c7af71aeb77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationController.php" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,25 +17,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ActivationController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationController.php">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="21" column="92" lean-forward="true" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivationResendController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationResendController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
-                <element signature="e#45#58#0#PHP" expanded="true" />
+                <element signature="e#45#85#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="66" column="66" lean-forward="false" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
+              <folding>
+                <marker date="1569244657501" expanded="true" signature="9:22" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="34:43" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="219:232" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="332:348" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="532:554" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="760:774" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="999:1009" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="1325:1341" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="1775:1785" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="2239:2273" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="2404:2423" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="2815:2828" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="2911:2941" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="3011:3038" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="3085:3114" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="3262:3293" ph="..." />
+                <marker date="1569244657501" expanded="true" signature="3336:3367" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resend.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/activate/resend.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+              <caret line="17" column="173" lean-forward="false" selection-start-line="17" selection-start-column="165" selection-end-line="17" selection-end-column="173" />
               <folding>
-                <element signature="e#23#64#0#PHP" expanded="true" />
+                <marker date="1569245051017" expanded="true" signature="9:22" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="34:43" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="239:270" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="378:407" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="603:625" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="839:853" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="1082:1092" ph="..." />
+                <marker date="1569245051017" expanded="true" signature="1525:1539" ph="..." />
               </folding>
             </state>
           </provider>
@@ -60,10 +104,13 @@
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Listeners/Auth/SendActivationEmail.php" />
         <option value="$PROJECT_DIR$/app/Mail/Auth/ActivationEmail.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/auth/activation.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/activate/resend.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationResendController.php" />
       </list>
     </option>
   </component>
@@ -200,6 +247,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +310,13 @@
               <item name="laravel_email_verification" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="laravel_email_verification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel_email_verification" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="emails" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -276,7 +331,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +338,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/User.php&#10;Act&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/Http/Controllers/Auth/ActivationController.php&#10;web&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/routes/web.php&#10;web.&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/routes/web.php&#10;SendA&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/Listeners/Auth/SendActivationEmail.php&#10;Regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/Http/Controllers/Auth/RegisterController.php" />
+    <property name="SearchEverywhereHistoryKey" value="lo&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/resources/views/auth/login.blade.php&#10;web&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/routes/web.php&#10;Act&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/User.php&#10;web.&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/routes/web.php&#10;SendA&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/Listeners/Auth/SendActivationEmail.php&#10;Regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/Study/laravel_email_verification/app/Http/Controllers/Auth/RegisterController.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,12 +367,12 @@
       <updated>1569176980566</updated>
       <workItem from="1569176982602" duration="1512000" />
       <workItem from="1569224765159" duration="3268000" />
-      <workItem from="1569242899654" duration="885000" />
+      <workItem from="1569242899654" duration="1914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5665000" />
+    <option name="totallyTimeSpent" value="6694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -484,30 +538,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        <state relative-caret-position="641">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#23#64#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationController.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="21" column="92" lean-forward="true" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/activate/resend.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="173" lean-forward="false" selection-start-line="17" selection-start-column="165" selection-end-line="17" selection-end-column="173" />
           <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
+            <marker date="1569245051017" expanded="true" signature="9:22" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="34:43" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="239:270" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="378:407" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="603:625" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="839:853" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="1082:1092" ph="..." />
+            <marker date="1569245051017" expanded="true" signature="1525:1539" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="66" column="66" lean-forward="false" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
+          <folding>
+            <marker date="1569244657501" expanded="true" signature="9:22" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="34:43" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="219:232" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="332:348" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="532:554" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="760:774" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="999:1009" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="1325:1341" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="1775:1785" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="2239:2273" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="2404:2423" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="2815:2828" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="2911:2941" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="3011:3038" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="3085:3114" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="3262:3293" ph="..." />
+            <marker date="1569244657501" expanded="true" signature="3336:3367" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ActivationResendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#45#85#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
